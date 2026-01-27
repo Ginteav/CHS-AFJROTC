@@ -196,12 +196,11 @@ table.upcoming-events tr:last-of-type {
 
 }
 
-@media (min-width: 810px){
-	
+@media (max-width: 809px){
 	.mainh{
 		font-family: Candara, Helvetica Neue, Helvetica, Arial, sans-serif;
 		text-align: center;
-		font-size: 20px;
+		font-size: 30px;
 		font-style: bold;
 		color: #00308F;
 	}
@@ -217,13 +216,14 @@ table.upcoming-events tr:last-of-type {
 		border-color:#00308F;
 		border-width: 1px;
 	}
+  	}
 	aside a {
 		color: #00308F;
 	}
 }
 /*Banner*/
 #banner {
-	width: 100%;
+	heignt: 20%;
 }
 /*Upcoming event table css*/
 body {
@@ -389,4 +389,8 @@ table.upcoming-events tr:last-of-type {
     font-style: normal;
     font-variation-settings: "wdth" 100;
   }
+
 }
+
+}
+
