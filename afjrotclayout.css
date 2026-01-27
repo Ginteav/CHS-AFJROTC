@@ -27,7 +27,7 @@
 }
 /*Banner*/
 #banner {
-	heignt: 20%;
+	width: 100%;
 }
 /*Upcoming event table css*/
 body {
@@ -195,6 +195,9 @@ table.upcoming-events tr:last-of-type {
   }
 
 }
+
+#eeeeeeeee
+
 
 @media (max-width: 809px){
 	.mainh{
@@ -392,6 +395,6 @@ table.upcoming-events tr:last-of-type {
 
 }
 
-}
+
 
 
