@@ -1,6 +1,6 @@
 /* Side color and body styles*/
 @charset: utf-8;
-@media (max-width: 809px){
+@media (min-width: 809px){
 	
 	.mainh{
 		font-family: Candara, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -393,4 +393,5 @@ table.upcoming-events tr:last-of-type {
 }
 
 }
+
 
