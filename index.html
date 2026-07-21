@@ -1,97 +1,56 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>CHS Air Force JROTC</title>
+  <head>
+	<title>CHS Air Force JROTC</title>
 		<meta charset="utf-8">
 		<link rel="icon" type="image/x-icon" href="favicon.png">
 		<link rel="stylesheet" href="afjrotclayout.css">
 		<!--Last edited: 5/18/2024
 			edits made by: Arianna Ginter-->
-	</head>
-	
-	<body>
-		<!--Primary header-->
-		<header class="mainh">
-		<h1 class="header center">CHS AFJROTC</h1>
-		</header>
-		<link rel="icon" type="image/x-icon" href="favicon.png">
-		<link rel="stylesheet" href="afjrotcdropdowns.css">
-		<!--Navigation 
-		Note: dd stands for dropdowns in the class names.-->
-		<div class="nav">
-			<a href="index.html">Home</a>
-			<a href="resources.html">Resources</a>
-			<div class="dd">
-				<button class="dd-button">More About Us &#9660;</button>
-				<div class="dd-content">
-					<a href="leadership.html">Our Leadership</a>
-					<a href="instructors.html">Instructors</a>
-					<a href="curriculum.html">Curriculum</a>
-					<a href="mission.html">Mission</a>
-					<a href="history.html">History</a>
-				</div>
-			</div>
-			<div class="dd2">
-			<button class="dd2-button">Special Teams &#9660;</button>
-				<div class="dd2-content">
-					<a href="drill.html">Drill</a>
-					<a href="colorguard.html"> Color Guard </a>
-					<a href="rifle.html">Rifle</a>
-					<a href="saber.html">Saber</a>
-					<a href="raiders.html">Raiders</a>
-				</div>
-			</div>
-		</div>
-		<div class="mainpage"></div>
-			<img id="banner" src="jrotcbanner.jpg" alt="Choctawhatchee Air Force Junior Reserve Officer Training Corps, Integrity First, Service Before Self, Excellence In All We Do">
-			<!--Aside-->
-			<aside>
-				<h3>-Contact Info-</h3>
-				<p><a href="mailto: Eric.Lazenby@okaloosaschools.com"> Colonel Lazenby</a></p>
-				<p><a href="mailto: Cornell.Davis@Okaloosaschools.com">SMSgt Davis</a></p>
-				<p><a href="mailto: WashingtonR@Okaloosaschools.com">Chief Washington</a></p>
-				<h3>-Social Media-</h3>
-				<a href="https://www.instagram.com/choctawhatchee_jrotc?igsh=MWNwanZtdnVrMzVreA=="><img class="appicon" src="insta-icon.jpg" alt="Instagram Link"></a><a href="https://www.facebook.com/share/19GXN2P7Tn/?mibextid=wwXIfr"><img class="appicon" src="facebook-icon.jpg" alt="Facebook Link"></a>
-			</aside>
-			
-			<!--Article-->
-			<div id="wrapper">
-				<div id="Upcoming-Event">
-					<h2 class="hue1">Home</h2>
-					<article class="hue1">
-						<p>Here at Choctawhatchee High School Air Force Junior Reserve Officer Training Corps, we are dedicated to building citizens of character, and strong leadership among cadets.</p>
-					</article>
-					<h3 class="hue1">Upcoming Events</h3>
-	
-					<table class="upcoming-events">
-						<tr>
-							<th>Event Name</th>
-							<th>Event Date</th>
-						</tr>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+	  <style>
+		.hamburger {
+  			display: none;
+		}
 
-						<tr>
-							<td>Kenwood Carnival Community Service</td>
-							<td>April 17th</td>
-						</tr>
-						<tr>
-							<td>Awards Night</td>
-							<td>In May</td>
-						</tr>
-					
-					</table>
-			</div>
-			<br>
-			<!-- ALTER LATER 
-			<div id="parent-width">
-				something to go here
-			</div>
-			-->
-		</div>
-		
-		
-		<!--Page content-->
-	</body>
+		.nav-links {
+ 			display: flex;
+		}
 
+		@media screen and (max-width: 768px) {
+ 			.nav-links {
+	    	display: none;
+    		flex-direction: column;
+  		}
+
+  		.hamburger {
+    		display: block;
+  		}
+	  </style>
+  </head>
+  <body>
+    <nav>
+      <div class="hamburger">
+        <i class="material-icons">menu</i>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="page2.html">About</a></li>
+        <li><a href="somebody@someplace.com">Contact</a></li>
+      </ul>
+    </nav>
+    <script src="script.js">
+		var hamburger = document.querySelector('.hamburger');
+		var navLinks = document.querySelector('.nav-links');
+
+		hamburger.addEventListener('click', function () {
+  		navLinks.style.display = navLinks.style.display === 'none' ? 'flex' : 'none';});
+	</script>
+  </body>
 </html>
+
 
 
 
